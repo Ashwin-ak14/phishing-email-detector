@@ -1,24 +1,24 @@
-Phishing Email Detection Model
+#Phishing Email Detection Model
 
   A machine learning-based tool that classifies emails as Safe or Phishing using a Naive Bayes classifier combined with rule-based feature analysis.
 
-Features:
+##Features:
 
   - ML Classification — TF-IDF vectorization + Multinomial Naive Bayes for email classification
   - Rule-Based Analysis — Keyword matching and URL pattern inspection for risk scoring
   - Risk Levels — Outputs LOW / MEDIUM / HIGH risk with explanations
   - Confidence Score — Model prediction confidence as a percentage
 
-Requirements:
+##Requirements:
 
     numpy
     scikit-learn
 
-Install dependencies:
+##Install dependencies:
 
     bashpip install numpy scikit-learn
 
-Usage:
+##Usage:
 
   Run the script directly:
 
@@ -44,7 +44,7 @@ Usage:
       ✓ Suspicious keywords: urgent, account, verify
 
 
-How It Works
+##How It Works
 
   1. Training (prepare_and_train)
      
@@ -82,13 +82,13 @@ How It Works
 
 
 
-Phishing Keywords Monitored:
+##Phishing Keywords Monitored:
       
   
   verify, urgent, password, suspended, account, click, login, bank, payment, update, winner, prize, gift, alert, security, claim
 
 
-Limitations:
+##Limitations:
 
  - Trained on only 10 examples — not suitable for production use as-is
  - Extend TRAINING_DATA with more labeled samples for better accuracy
