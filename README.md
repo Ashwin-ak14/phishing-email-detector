@@ -83,8 +83,7 @@ How It Works
 
 
 Phishing Keywords Monitored:
-
-  verify, urgent, password, suspended, account, click, login, bank, payment, update, winner, prize, gift, alert, security, claim
+       verify, urgent, password, suspended, account, click, login, bank, payment, update, winner, prize, gift, alert, security, claim
 
 
 Limitations:
