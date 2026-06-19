@@ -1,6 +1,8 @@
 # Phishing Email Detection Model
 
   A machine learning-based tool that classifies emails as Safe or Phishing using a Naive Bayes classifier combined with rule-based feature analysis.
+  
+---
 
 ## Features:
 
@@ -9,14 +11,20 @@
   - Risk Levels — Outputs LOW / MEDIUM / HIGH risk with explanations
   - Confidence Score — Model prediction confidence as a percentage
 
+---
+
 ## Requirements:
 
     numpy
     scikit-learn
 
+---
+
 ## Install dependencies:
 
     bashpip install numpy scikit-learn
+
+---
 
 ## Usage:
 
@@ -43,6 +51,8 @@
       ✓ Uses HTTP instead of HTTPS
       ✓ Suspicious keywords: urgent, account, verify
 
+
+---
 
 ## How It Works
 
@@ -80,6 +90,7 @@
       - Risk score and level
       - Human-readable reasons
 
+---
 
 
 ## Phishing Keywords Monitored:
@@ -87,9 +98,12 @@
   
   verify, urgent, password, suspended, account, click, login, bank, payment, update, winner, prize, gift, alert, security, claim
 
+---
 
 ## Limitations:
 
  - Trained on only 10 examples — not suitable for production use as-is
  - Extend TRAINING_DATA with more labeled samples for better accuracy
  - Rule-based scoring is heuristic and may produce false positives
+
+---
