@@ -1,6 +1,6 @@
 Phishing Email Detection Model
 
-A machine learning-based tool that classifies emails as Safe or Phishing using a Naive Bayes classifier combined with rule-based feature analysis.
+  A machine learning-based tool that classifies emails as Safe or Phishing using a Naive Bayes classifier combined with rule-based feature analysis.
 
 Features:
 
@@ -83,7 +83,9 @@ How It Works
 
 
 Phishing Keywords Monitored:
-       verify, urgent, password, suspended, account, click, login, bank, payment, update, winner, prize, gift, alert, security, claim
+      
+  
+  verify, urgent, password, suspended, account, click, login, bank, payment, update, winner, prize, gift, alert, security, claim
 
 
 Limitations:
